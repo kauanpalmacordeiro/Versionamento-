@@ -6,7 +6,7 @@ function Maior() {
     if (primeiro > segundo) {
         maior.textContent = "O primeiro número é maior"
     }
-
+ 
     else if (primeiro < segundo)
         maior.textContent = "O segundo número é maior "
 
