@@ -1,13 +1,18 @@
-function ParImpar() {
-    let numero = Number (document.getElementById("numero").value)
-    let verificar = document.getElementById("placar")
+function Maior() {
+    let primeiro = Number (document.getElementById("primeiro").value)
+    let segundo = Number (document.getElementById("segundo").value)
+    let maior = document.getElementById("resultado")
 
-    if (numero %2 == 0) {
-        verificar.textContent = "Esse é um número par"
+    if (primeiro > segundo) {
+        maior.textContent = "O primeiro número é maior"
     }
 
-    else if (numero %2 == 1) {
-        verificar.textContent = "Esse é um número Impar"
+    else if (primeiro < segundo)
+        maior.textContent = "O segundo número é maior "
+
+    else if (primeiro == segundo) {
+        maior.textContent = "Empate, ambos inquais"
     }
+
     
 }
