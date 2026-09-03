@@ -5,3 +5,7 @@ body {
     flex-direction: column;
     gap: 50px
 }
+
+#resultado {
+    white-space: pre-line;
+}

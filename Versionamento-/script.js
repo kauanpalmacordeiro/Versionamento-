@@ -2,10 +2,18 @@ function tabuada() {
     let numero = Number(document.getElementById("numero").value)
     let resultado = document.getElementById("resultado")
 
-    for (i == 0; i < 10; i ++) {
-        let tabuada = numero * i
-        resultado.textContent = tabuada
-    }
+     resultado.textContent = ""
+
+        for (let i = 1; i <= 100; i ++) {
+        
+            let tabuada = i * numero 
+
+            resultado.textContent += numero + "x" + i + "=" + tabuada + "\n"
+
+        }
+
+        
+        
 
 }
 
